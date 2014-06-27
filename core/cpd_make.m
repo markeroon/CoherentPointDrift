@@ -20,7 +20,9 @@
 
 function cpd_make()
 
-psave=pwd; p = mfilename('fullpath'); [pathstr, name, ext, versn] = fileparts(p);
+psave=pwd;
+p = mfilename('fullpath');
+[pathstr, name, ext] = fileparts(p);
 
 %%%%%%%%%%%%%%%%%%%% cpd_P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
